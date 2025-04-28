@@ -1,1 +1,60 @@
 <!-- Advanced CSS & Combinators -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Day 4 of Learning Web Dev</title>
+    <link rel="stylesheet" href="style4.css">
+    <style>
+        /* Descendant Combinator (space) */
+        
+        /* Child Combinator (>) */
+        div>h2 {
+            color: green;
+        }
+        
+        /* Adjacent Sibling Combinator (+) */
+        h2+p {
+            font-weight: bold;
+        }
+        
+        /* General Sibling Combinator (~) */
+        h1~p {
+            color: red;
+        }
+        main p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Day 4 of Learning Web Dev</h1>
+        </nav>
+    </header>
+    <main>
+        <h1>Main Heading</h1>
+        <p>Paragraph after H1 (this will be red)</p>
+        <p>Another Paragraph after H1 (this will also be red)</p>
+        <div>
+            <h2>Section Title</h2>
+            <p>This is a paragraph inside div. (blue color)</p>
+            <section>
+                <p>This is a nested paragraph inside section inside div. (also blue)</p>
+            </section>
+        </div>
+        <h2>Another Heading</h2>
+        <p>Paragraph just after H2 (this will be bold)</p>
+        <p>Normal paragraph (no special style)</p>
+    </main>
+    <footer>
+        <p style="font-size: 16px; color: #00ff1a;">This paragraph has inline styles applied.</p>
+        <p class="highlighted-text">This paragraph uses a class-based style.</p>
+        <div id="main-container">
+            <p>This div should have styles from the external stylesheet.</p>
+        </div>
+    </footer>
+</body>
+</html>

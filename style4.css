@@ -1,0 +1,18 @@
+#main-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #e6e6e6;
+  }
+  
+  header{
+    text-decoration: wavy underline;
+    padding: 30px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5%;
+    /* height: 500px; */
+    /* width: 100px; */
+  }
+
+
+  

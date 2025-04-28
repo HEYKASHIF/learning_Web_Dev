@@ -1,0 +1,39 @@
+.h2{
+    color: green;
+}
+
+img[alt ~= its]
+{
+    border: 5px solid gold;
+}
+
+h1{
+    text-align: center;
+    text-decoration:dotted underline;
+    color:blueviolet;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    border-radius: 50%;
+}
+p{
+    line-height: 2;
+    font-size: large;
+    color: white;
+    font-weight: 800;
+
+
+}
+body{
+    background: linear-gradient(#2b43f7, #f714f0);
+}
+
+.main{
+    width: 90%;
+    margin: 20px auto;
+}
+
+footer{
+    text-align: center;
+    padding-left: 40%;
+}

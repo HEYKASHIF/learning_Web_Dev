@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Web Dev</title>
+    <style>
+        section{
+            padding: 20% auto;
+            margin: 2% auto;
+        }
+        div {
+            height: 400px;
+            width: 22%;
+            border: 2px solid rgb(9, 251, 255);
+            display: inline-block;
+            border-radius: 20px;
+            box-shadow: rgb(255, 255, 255) 0px 50px 100px -20px, rgb(255, 255, 255) 0px 30px 60px -30px, rgb(255, 255, 255) 0px -2px 6px 0px inset;
+        }
+        h1::first-letter{
+            font-size: 500;
+            color: rgb(64, 255, 0);
+            font-family:fantasy;
+        }
+        li::marker{
+            color: rgb(255, 0, 200);
+        }
+        button:hover{
+            color: black;
+            background-color: red;
+            cursor: pointer;
+        }
+        div#aa:hover{
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        button:active{
+            border-color: rgb(0, 255, 251);
+        }
+        div:has(h1){
+            color: blue;
+        }
+        div:has(h3)
+        {
+            border-color: black;
+        }
+        div#dv:hover{
+            background-color: red;
+        }
+        div#dv:active{
+            background-color: rgb(251, 255, 0);
+        }
+    </style>
+</head>
+<body style="background-color: rgb(230, 151, 151);">
+    <h1 style="font-size: 20; font-weight: 900; color: white;">Kashif</h1>
+    <Section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </Section>
+    <main>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ol>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+            <li>item7</li>
+            <li>item8</li>
+            <li>item9</li>
+            <li>item10</li>
+        </ol>
+    </main>
+    <footer>
+        <button>Click Me To End This Page.</button>
+    </footer>
+    <div id="aa" style="width: 100px; height: 100px; background-color: blueviolet;"></div>
+
+    <div><h1>its an H1</h1></div>
+    <div><h2>its an H2</h2></div>
+    <div id="dv"><h3>its an H3</h3></div>
+</body>
+</html>

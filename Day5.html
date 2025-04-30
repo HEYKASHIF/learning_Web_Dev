@@ -1,3 +1,99 @@
 <!-- Box Model & CSS Fundamentals!  & CSS FlexBox Layout! -->
 
-buddy Your Lecture is pending.............
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 of Learing Web Dev</title>
+    <style>
+        img{
+            width: 150px;
+        }
+        
+        /* nav>div{
+            border: 1.5px black solid;
+            display: inline-block;
+        } */
+        nav>div#d2{
+            margin-left: 70%;
+            /* padding: 20px; */
+
+        }
+
+        div#box{
+            margin-left: 50%;
+            margin-top: 20%;
+            width: 100px;
+            height: 100px;
+            border: 3px solid red;
+            background-color: chartreuse;
+            padding-top: 50px;
+            box-sizing: border-box;
+        }
+        div#main{
+            margin-top: 10px;
+            height: 400px;
+            width: 100%;
+            border: 2px solid rgb(0, 155, 140);
+            background-color: aquamarine;
+
+        }
+        div#main>h1{
+            color: blue;
+            margin-left: 40%;
+        }
+        /* h1::first-letter{
+            color: red;
+        } */
+        .first-word{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp" alt="LOGO">
+                <select name="" id="">
+                    <option value="">--Courses--</option>
+                    <option value="">SD</option>
+                    <option value="">AIML</option>
+                    <option value="">DS</option>
+                </select>
+
+            </div>
+            <div id="d2">
+                <a href="">Interview Guides</a>
+                <a href="">Success Stories</a>
+                <a href="">HIRE From Us</a>
+                <a href="">FEE</a>
+                <button>REGISTER</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="main">
+            <h1> <span class="first-word">Our</span> Wining Formula</h1>
+            <div>
+                <h3>Pay After Placement</h3>
+                <p>Start learning today and pay when you will start earning.</p>
+            </div>
+            <div> 
+                <h3>Hands-On Learning</h3>
+                <p>Learn while doing while practical projects and real world applications.</p>
+            </div>
+            <div>
+                <h3>Simulated Learning</h3>
+                <p>Ensuring learning never stops, with the power of AI.</p>
+            </div>
+        </div>
+        <!-- <div id="box">
+            <h3>delulu</h3>
+        </div> -->
+    </main>
+    <h1>Hey its kashif</h1>
+</body>
+</html>

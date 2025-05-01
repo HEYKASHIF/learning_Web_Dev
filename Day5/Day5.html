@@ -3,25 +3,27 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 5 of Learing Web Dev</title>
     <style>
-        img{
+        img {
             width: 150px;
         }
-        
+
         /* nav>div{
             border: 1.5px black solid;
             display: inline-block;
         } */
-        nav>div#d2{
+        nav>div#d2 {
             margin-left: 70%;
             /* padding: 20px; */
 
         }
 
+        /* 
         div#box{
             margin-left: 50%;
             margin-top: 20%;
@@ -31,27 +33,34 @@
             background-color: chartreuse;
             padding-top: 50px;
             box-sizing: border-box;
-        }
-        div#main{
+        } */
+        main>section {
             margin-top: 10px;
-            height: 400px;
-            width: 100%;
+            /* height: 400px;
+            width: 100%; */
             border: 2px solid rgb(0, 155, 140);
             background-color: aquamarine;
+            /* display: inline-block; */
+        }
 
+        main>section>h1 {
+            color: black;
+            font-size: 48;
         }
-        div#main>h1{
-            color: blue;
-            margin-left: 40%;
+        .parent-card div{
+            border: 2px solid rgb(0, 155, 140);
+            display: inline-block;
         }
+
         /* h1::first-letter{
             color: red;
         } */
-        .first-word{
+        .first-word {
             color: red;
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -75,25 +84,28 @@
         </nav>
     </header>
     <main>
-        <div id="main">
+        <section>
             <h1> <span class="first-word">Our</span> Wining Formula</h1>
-            <div>
-                <h3>Pay After Placement</h3>
-                <p>Start learning today and pay when you will start earning.</p>
+            <div class="parent-card">
+                <div>
+                    <h3>Pay After Placement</h3>
+                    <p>Start learning today and pay when you will start earning.</p>
+                </div>
+                <div>
+                    <h3>Hands-On Learning</h3>
+                    <p>Learn while doing while practical projects and real world applications.</p>
+                </div>
+                <div>
+                    <h3>Simulated Learning</h3>
+                    <p>Ensuring learning never stops, with the power of AI.</p>
+                </div>
             </div>
-            <div> 
-                <h3>Hands-On Learning</h3>
-                <p>Learn while doing while practical projects and real world applications.</p>
-            </div>
-            <div>
-                <h3>Simulated Learning</h3>
-                <p>Ensuring learning never stops, with the power of AI.</p>
-            </div>
-        </div>
+        </section>
         <!-- <div id="box">
             <h3>delulu</h3>
         </div> -->
     </main>
     <h1>Hey its kashif</h1>
 </body>
+
 </html>

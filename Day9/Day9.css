@@ -1,0 +1,13 @@
+div{
+    color: #f6781b;
+    height: 400px;
+    width: 400px;
+    background-image: url("/images/feel_happy.jpg");
+    background-size:cover;
+    background-position: center;
+    border: 2px solid teal;
+    right: 0;
+    top: 300px;
+    position: fixed;
+    
+}
